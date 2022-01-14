@@ -112,6 +112,9 @@ padding-right: 40px;
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .footer-info{
+        width: 100vw;
+    }
 }
 @media only screen and (max-width:500px){
     .navbar{

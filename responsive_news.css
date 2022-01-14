@@ -49,6 +49,9 @@ margin-bottom: 20px;
 .news{
 margin-bottom: 20px;
 }
+.footer-info{
+    width: 100vw;
+}
 .news a{
     cursor: none;
 }
@@ -108,6 +111,9 @@ padding-right: 40px;
     .wrapper a{
         margin-left: 0px;
         width: 150px;
+    }
+    .footer-info{
+        width: 100vw;
     }
 }
 @media only screen and (max-width:500px){

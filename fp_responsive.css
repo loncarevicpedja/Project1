@@ -108,6 +108,9 @@ label{
         width: 150px;
 
     }
+    .footer-info{
+        width: 100vw;
+    }
 }
 @media only screen and (max-width:500px){
     .navbar{
