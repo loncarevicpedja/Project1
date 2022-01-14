@@ -76,13 +76,13 @@
         gap: 20px;
     }
     .first{
-        width: 60%;
+        width: 65%;
     }
     .second{
-        width: 60%;
+        width: 65%;
     }
     .third{
-        width: 60%;
+        width: 65%;
     }
     ul{
         width: 100%;
@@ -113,9 +113,6 @@
     .footer-info{
         flex-direction: column;
         align-items: center;
-    }
-    .footer-info{
-        width: 100vw;
     }
     .footer-info-logo{
         width: auto;
@@ -150,7 +147,9 @@
         margin-left: 0px;
         width: 150px;
     }
-
+    .footer-info{
+        width: 100vw;
+    }
 }
 @media only screen and (max-width:500px){
     .navbar{
