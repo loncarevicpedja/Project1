@@ -1,0 +1,120 @@
+@media only screen and (max-width:956px){
+    ul{
+        width: 100%;
+        text-align: center;
+        top: 71px;
+        transition:  all 0.5s;
+        display: block;
+    }
+    .menu ul li a{
+        font-size: 30px;
+    }
+    li{
+        width: 100%;
+    }
+#hamburger{
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    background-color: rgb(95, 93, 93);
+    display: none;
+    padding: 20px;
+    gap: 30px;
+    height: 100%;
+    
+}
+.mobileScreen ul{
+    display: block;
+}
+.home{
+    margin-bottom: 20px;
+}
+.news{
+    margin-bottom: 20px;
+}
+.group{
+    margin-bottom: 20px;
+}
+.gallery{
+    margin-bottom: 20px;
+}
+.for_parents{
+    margin-bottom: 20px;
+}
+.for_parents a{
+    cursor: none;
+}
+.contact{
+    margin-bottom: 20px;
+}
+.menu ul li a{
+    color: white;
+}
+label{
+    
+    margin-left: 100%;
+    padding-right: 40px;
+}
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-info-logo{
+        width: auto;
+    }
+    .footer-info{
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-card-content h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer-card-content{
+        align-items: center;
+    }
+    .footer-info-map{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-info-informations{
+        align-items: center;
+    }
+    .footer-info-informations-cards{
+        align-items: center;
+    }
+    .footer-infocard{
+        display: flex;
+        align-items: center;
+    }
+    .wrappers a{
+        margin-left: 0px;
+        width: 150px;
+
+    }
+}
+@media only screen and (max-width:500px){
+    .navbar{
+        padding: 0px;
+        width: 100%;
+    }
+    .cover_image p{
+        text-align: center;
+    }
+}

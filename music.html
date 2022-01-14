@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="music_responsive.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Zespół muzyczny</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar fullScreen" id="menuHeader">
+                <div class="logo-image">
+                    <img src="./logo.png" alt="" class="logo">
+                </div>
+                <div class="menu">
+                    <ul >
+                        <li class="home"><a href="./home.html"><i class="fas fa-home"></i></a></li>
+                        <li class="news"><a href="./news.html">Aktualności</a></li>
+                        <li class="group"><a href="./group.html">Grupy</a></li>
+                        <li class="gallery" id="active"><a href="./music.html">Zespół muzyczny</a></li>
+                        <li class="for_parents"><a href="./for_parents.html">Dla Rodziców</a></li>
+                        <li class="contact"><a href="./adress.html">Kontakt</a></li>
+                    </ul>
+                    <label for="check" onclick="openMenu()">
+                        <i id="hamburger" class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </div>
+            
+        </div>
+        <div class="cover_image">
+            <p>Muzyka</p>
+            
+        </div>
+      
+
+        <div class="content">
+            <div class="card_content">
+                <div class="card">
+                   <div class="card_top">
+                       <img src="violina.jpg">
+                   </div>
+                   <div class="card_middle">
+                       <h1>Skrzypce</h1>
+                        <p>Skrzypce składają się z dwóch części: skrzypiec i smyczka. Skrzypce są jak mała gitara. Skrzypce mają cztery struny. Wykonany jest z drewna. Skrzypce mają kształt gruszki.</p>
+
+                   </div>
+                   <div class="card_bottom">
+                    <audio class="muzika" controls>
+                        <source src="violin.ogg" type="audio/ogg">
+                        <source src="violin.mp3" type="audio/mpeg">
+                    </audio>
+
+                   </div>
+                   
+                </div>
+
+
+                <div class="card">
+                    <div class="card_top">
+                        <img src="gitara.png">
+                    </div>
+                    <div class="card_middle">
+                        <h1>Gitara</h1>
+                        <p>Gitara ma kształt gruszki. Wykonany jest z drewna. 
+                            Posiada 6 strun, które wytwarzają dźwięki. 
+                            Daje przyjemne tony.</p>
+ 
+                    </div>
+                    <div class="card_bottom">
+                     <audio class="muzika" controls>
+                         <source src="guitar.ogg" type="audio/ogg">
+                         <source src="guitar.mp3" type="audio/mpeg">
+                     </audio>
+ 
+                    </div>
+                   
+                </div>
+
+
+                <div class="card">
+                    <div class="card_top">
+                        <img src="klavir.png">
+                    </div>
+                    <div class="card_middle">
+                        <h1>Fortepian</h1>
+                        <p>Fortepian to instrument strunowy. To jeden z większych instrumentów. 
+                            Zawiera białe i czarne klawisze, 
+                            za pomocą których wytwarza dźwięki.</p>
+ 
+                    </div>
+                    <div class="card_bottom">
+                     <audio class="muzika" controls>
+                         <source src="piano.ogg" type="audio/ogg">
+                         <source src="piano.mp3" type="audio/mpeg">
+                     </audio>
+ 
+                    </div>
+                   
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card_top">
+                        <img src="truba.png">
+                    </div>
+                    <div class="card_middle">
+                        <h1>Trąbka</h1>
+                        <p>Trąbka to instrument dęty o pięknym i przenikliwym brzmieniu. 
+                         Ma kształt tuby z guzikami u góry, przez które wytwarza dźwięki.</p>
+ 
+                    </div>
+                    <div class="card_bottom">
+                     <audio class="muzika" controls>
+                         <source src="truba.ogg" type="audio/ogg">
+                         <source src="truba.mp3" type="audio/mpeg">
+                     </audio>
+ 
+                    </div>
+                   
+                </div>
+
+
+                <div class="card">
+                    <div class="card_top">
+                        <img src="drum.jpg">
+                    </div>
+                    <div class="card_middle">
+                        <h1>Perkusja</h1>
+                        <p>Perkusja to instrumenty perkusyjne. Wyglądają jak okrągłe pudełko. 
+                            Dźwięki są wytwarzane przez uderzanie ich kijem.</p>
+ 
+                    </div>
+                    <div class="card_bottom">
+                     <audio class="muzika" controls>
+                         <source src="bubanj.ogg" type="audio/ogg">
+                         <source src="bubanj.mp3" type="audio/mpeg">
+                     </audio>
+ 
+                    </div>
+
+                   
+                </div>
+
+
+                <div class="card">
+                    <div class="card_top">
+                        <img src="frula.jpg">
+                    </div>
+                    <div class="card_middle">
+                        <h1>Flet prosty</h1>
+                        <p>Flet to drewniany instrument dęty. Ma kształt rury z otworami u góry.</p>
+ 
+                    </div>
+                    <div class="card_bottom">
+                     <audio class="muzika" controls>
+                         <source src="Flauta.ogg" type="audio/ogg">
+                         <source src="Flauta.mp3" type="audio/mpeg">
+                     </audio>
+ 
+                    </div>  
+                </div>
+
+
+
+            </div>
+            
+        </div>
+        <div class="footer">
+            <div class="footer-info">
+                <div class="footer-info-logo">
+                    <img src="./logo.png" alt="">
+                </div>
+                <div class="footer-info-informations">
+                    <h2>Zaczynaj</h2>
+                    <div class="footer-info-informations-cards">
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <p><a href="./home.html">Home</a></p>
+                            </div>   
+                        </div> 
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <p><a href="./for_parents.html">Dla Rodziców</a></p>
+                            </div>   
+                        </div>                    
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <p><a href="./news.html">Aktualności</a></p>
+                            </div>   
+                        </div>                    
+                            
+                    </div>
+                </div>
+                <div class="footer-info-informations">
+                    <h2>Informacja</h2>
+                    <div class="footer-info-informations-cards">
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <h3>Email</h3>
+                                <p>poczta@p83.lublin.eu</p>
+                            </div>   
+                        </div> 
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <h3>Telefon</h3>
+                                <p>81 751 81 92</p>
+                            </div>   
+                        </div>                    
+                        <div class="footer-infocard">
+                            <div class="footer-card-content">
+                                <h3>Adres</h3>
+                                <p>ul. Zdrowa 1, <br>20-383 Lublin</p>
+                            </div>   
+                        </div>                    
+                            
+                    </div>
+                </div>
+                <div class="footer-info-map">
+                    <div class="wrapper">
+                        <a href="./adress.html"><span>Kontakt</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <p>© 2022, Przedszkole 83 w Lublinie</p>
+            </div>
+        </div>  
+</div>        
+    </div>
+    <script>
+        function openMenu() {
+            var ulList = document .getElementById('menuHeader')
+            ulList.classList.toggle("mobileScreen")
+        }
+    </script>
+</body>
+</html>

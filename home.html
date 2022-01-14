@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="./responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+<title>Home</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="hedaer">
+            <div class="navbar fullScreen" id="menuHeader">
+                <div class="logo-image">
+                    <img src="./logo.png" alt="" class="logo">
+                </div>
+                <div class="menu">
+                    <ul >
+                        <li class="home" id="active"><a href="./home.html"><i class="fas fa-home"></i></a></li>
+                        <li class="news"><a href="./news.html">Aktualności</a></li>
+                        <li class="group"><a href="./group.html">Grupy</a></li>
+                        <li class="gallery"><a href="./music.html">Zespół muzyczny</a></li>
+                        <li class="for_parents"><a href="./for_parents.html">Dla Rodziców</a></li>
+                        <li class="contact"><a href="./adress.html">Kontakt</a></li>
+                    </ul>
+                    <label for="check" onclick="openMenu()">
+                        <i id="hamburger" class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <img src="./winter.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./spring.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./autumn.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                <img src="./summer.jpg" style="width:100%">
+                </div>            
+                <br>
+                
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+            </div>
+        <div class="content">
+            <div class="tree-windows">
+                <div class="first">
+                    <a href="./skolstvo.html">
+                    <div class="f-image">
+                        <img src="./vrtic.jpg" alt="">
+                    </div>
+                    <div class="f-text">
+                        <h2>NASZE PRZEDSZKOLE</h2>
+                    </div>
+                </a></div>
+                <div class="second">
+                    <a href="./kadra.html">
+                    <div class="s-image">
+                        <img src="./kadar.jpg" alt="">
+                    </div>
+                    <div class="s-text">
+                        <h2>KADRA</h2>
+                    </a></div>
+                </div>
+                <div class="third">
+                    <a href="./group.html">
+                    <div class="t-image">
+                        <img src="./deca.jpg" alt="">
+                    </div>
+                    <div class="t-text">
+                        <h2>GRUPY</h2>
+                    </div>
+                </a></div>
+            </div>
+            <div class="informations">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00A5E3" fill-opacity="1" d="M0,160L40,133.3C80,107,160,53,240,42.7C320,32,400,64,480,69.3C560,75,640,53,720,74.7C800,96,880,160,960,165.3C1040,171,1120,117,1200,90.7C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+                <div class="infocards">
+                    <div class="infocard">
+                        <div class="icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="card-centent">
+                            <h3>Email</h3>
+                            <p>poczta@p83.lublin.eu</p>
+                        </div>   
+                    </div>                    
+                    <div class="infocard">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="card-centent">
+                            <h3>Telefon</h3>
+                            <p>81 751 81 92</p>
+                        </div>   
+                    </div>                    
+                    <div class="infocard">
+                        <div class="icon">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <div class="card-centent">
+                            <h3>Adres</h3>
+                            <p>ul. Zdrowa 1, <br>20-383 Lublin</p>
+                        </div>   
+                    </div>                    
+                    <div class="infocard">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="card-centent">
+                            <h3>Godziny otwarcia</h3>
+                            <p>6:00 - 17:00</p>
+                        </div>   
+                    </div>                    
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00A5E3" fill-opacity="1" d="M0,224L21.8,218.7C43.6,213,87,203,131,186.7C174.5,171,218,149,262,128C305.5,107,349,85,393,80C436.4,75,480,85,524,106.7C567.3,128,611,160,655,165.3C698.2,171,742,149,785,138.7C829.1,128,873,128,916,128C960,128,1004,128,1047,149.3C1090.9,171,1135,213,1178,213.3C1221.8,213,1265,171,1309,160C1352.7,149,1396,171,1418,181.3L1440,192L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>        </div>
+                <div class="about-school">
+                    <p class="naslov_o_skoli">O PRZEDSZKOLU</p>
+                    <div class="about-content">
+                        <div class="about-tekst">
+                            <div class="about-first">
+                                <p class="naslovi">PRZEDSZKOLE 83 W LUBLINIE</p>
+                                <p class="oskoli">Ernest Haeckal powiedział, że „jeżeli ktoś pragnie być szczęśliwy, powinien dążyć nie tylko do szczęścia własnego, ale również do szczęścia tej społeczności, do której należy”, a Pracownicy Przedszkola nr 83 w Lublinie pragną być szczęśliwi!</p>
+                            </div>
+                            <div class="about-second">
+                                <p class="naslovi">ZDROWO I PRZYJEMNIE</p>
+                                <p class="oskoli">Przedszkole nr 83 mieści się przy ulicy Zdrowej 1, a więc, jak nazwa wskazuje, otoczenie jest zdrowe i przyjazne człowiekowi. Wokół jest bardzo dużo przestrzeni wypełnionej zielenią. usytuowane jest na południowych obrzeżach Lublina w dzielnicy Głusk, która istniała jako podmiejska wieś Głusk, a w granice administracyjne miasta Lublin została włączona w 1990 roku.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-info">
+                        <div class="footer-info-logo">
+                            <img src="./logo.png" alt="">
+                        </div>
+                        <div class="footer-info-informations">
+                            <h2>Zaczynaj</h2>
+                            <div class="footer-info-informations-cards">
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <p><a href="./home.html">Home</a></p>
+                                    </div>   
+                                </div> 
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <p><a href="./for_parents.html">Dla Rodziców</a></p>
+                                    </div>   
+                                </div>                    
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <p><a href="./news.html">Aktualności</a></p>
+                                    </div>   
+                                </div>                    
+                                    
+                            </div>
+                        </div>
+                        <div class="footer-info-informations">
+                            <h2>Informacja</h2>
+                            <div class="footer-info-informations-cards">
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <h3>Email</h3>
+                                        <p>poczta@p83.lublin.eu</p>
+                                    </div>   
+                                </div> 
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <h3>Telefon</h3>
+                                        <p>81 751 81 92</p>
+                                    </div>   
+                                </div>                    
+                                <div class="footer-infocard">
+                                    <div class="footer-card-content">
+                                        <h3>Adres</h3>
+                                        <p>ul. Zdrowa 1, <br>20-383 Lublin</p>
+                                    </div>   
+                                </div>                    
+                                    
+                            </div>
+                        </div>
+                        <div class="footer-info-map">
+                            <div class="wrapper">
+                                <a href="./adress.html"><span>Kontakt</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_copyright">
+                        <p>© 2022, Przedszkole 83 w Lublinie</p>
+                    </div>
+                </div>  
+        </div>      
+    </div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000);// Change image every 2 seconds
+}
+function openMenu() {
+    var ulList = document .getElementById('menuHeader')
+    ulList.classList.toggle("mobileScreen")
+}
+</script>
+
+</body>
+</html> 
