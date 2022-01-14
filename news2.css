@@ -242,7 +242,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #333;
-    background-color:red;
+    background-color:rgb(177, 177, 247);
     letter-spacing: 2px;
     text-align: center;
     position: relative;
