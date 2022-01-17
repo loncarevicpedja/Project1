@@ -172,7 +172,7 @@ body{
 .news_card{
     border-top: 3px solid red;
     width: 245px;
-    height: 410px;
+    height: 399px;
     border:1px solid grey;
     display: flex;
     flex-direction: column;
@@ -180,12 +180,12 @@ body{
     box-shadow: 2px 5px 10px grey;
 }
 .card_header{
-    width: 100%;
+    width: 80%;
     height: 30%;
 }
 .card-content{
     width: 100%;
-    height: 143px;
+    height: 133px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
